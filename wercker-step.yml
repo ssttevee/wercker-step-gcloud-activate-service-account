@@ -1,0 +1,11 @@
+name: gcloud-activate-service-account
+version: 0.2.0
+description: Activates a service account using a key file or a key as a string
+properties:
+  key:
+    type: string
+    required: false
+  keyfile:
+    type: string
+    default: key.json
+    required: false
